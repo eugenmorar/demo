@@ -4,5 +4,6 @@
 static void malicious() __attribute__((constructor));
 
 void malicious() {
-    system("touch /tmp/owned");
+//    system("touch /tmp/owned");
+    system("sleep 20"); 
 }
