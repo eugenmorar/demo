@@ -1,6 +1,10 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+/*
+build: gcc -shared -o calc.so -fPIC calc.c
+*/
+
 static void malicious() __attribute__((constructor));
 
 void malicious() {
