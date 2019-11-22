@@ -2,7 +2,7 @@
 #include<stdlib.h>
 
 /*
-build: gcc -shared -o calc.so -fPIC calc.c
+build: gcc -shared -o attack.so -fPIC attack.c
 */
 
 static void malicious() __attribute__((constructor));
